@@ -29,7 +29,7 @@ export default function Home() {
     }, [provider, account]);
 
     return (
-        <div style={{ textAlign: "center", marginTop: "20vh" }}>
+        <div style={{ textAlign: "center", marginTop: "40vh" }}>
             <h1>Break Monad Clicker Game</h1><br />
             <p>Click the button to increase your clicks!</p><br />
             {account ? (

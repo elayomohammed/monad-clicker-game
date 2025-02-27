@@ -10,7 +10,7 @@ export const useWeb3 = () => {
     const connectWallet = async () => {
         const web3Modal = new Web3Modal();
         const connection = await web3Modal.connect();
-        const provider = new ethers.BrowserProvider(window.ethereum);
+        const provider = new ethers.BrowserProvider(connection);
         //const provider = new ethers.BrowserProvider(window.ethereum);
         const signer = await provider.getSigner();
         const account = (signer).getAddress();

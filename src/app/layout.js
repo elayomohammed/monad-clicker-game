@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Break Monad C;icker Game",
+  title: "Break Monad Clicker Game",
   description: "Built by thefreethinkeer",
 };
 
